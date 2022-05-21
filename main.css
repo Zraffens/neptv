@@ -415,14 +415,6 @@ form input:focus {
 }
 
 @media (max-width: 960px) {
-  .showcase {
-    height: 70vh;
-  }
-
-  .hide-sm {
-    display: none;
-  }
-
   .showcase-top img {
     top: 30%;
     left: 5%;
@@ -436,6 +428,19 @@ form input:focus {
 
   .showcase-content p {
     font-size: 1.5rem;
+  }
+
+  .tabs .container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.2em;
+  }
+
+  .tab-item:hover {
+    transform: scale(1.1);
+  }
+
+  .form-content input {
+    padding: 0.5em;
   }
 
   .footer .footer-cols {
