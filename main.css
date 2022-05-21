@@ -236,7 +236,7 @@ img {
   display: table-row-group;
   vertical-align: middle;
   border-color: inherit;
-}   
+}
 
 .table tbody tr td {
   color: #999;
@@ -251,6 +251,24 @@ img {
 .table tbody tr:nth-child(odd) {
   background: #222;
 }
+
+form {
+  width: 60%;
+  text-align: center;
+  margin: auto;
+}
+
+form input {
+  width: 50%;
+  font-size: 1em;
+  padding: 1em;
+  border-radius: 10px;
+  border: 1px solid var(--primary-color);
+  display: block;
+  margin: 1em auto;
+}
+
+form input[type='']
 
 .footer {
   max-width: 70%;
