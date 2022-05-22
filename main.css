@@ -210,11 +210,6 @@ img {
   padding: 1.5rem 0;
 }
 
-.tabs .container > div:hover {
-  color: #fff;
-  cursor: pointer;
-}
-
 .plans {
   margin-top: 2rem;
 }
@@ -256,28 +251,6 @@ img {
 
 .showcase-content.form-content {
   margin-top: 0;
-}
-
-#form {
-  background: url(./assets/bg.jpg);
-  margin-bottom: 1em;
-  width: 100%;
-  height: 100vh;
-  position: relative;
-  background: url("./assets/bg.jpg") no-repeat center center/cover;
-  background-attachment: fixed;
-}
-
-#form::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  background: rgba(0, 0, 0, 0.6);
-  box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
 }
 
 form {
@@ -331,16 +304,6 @@ form input:focus {
   line-height: 1.9;
 }
 
-.footer .lang-select {
-  margin-top: 2rem;
-  color: #999;
-  background-color: #000;
-  background-image: none;
-  border: 1px solid #333;
-  padding: 1rem 1.2rem;
-  border-radius: 5px;
-}
-
 /* Container */
 .container {
   margin: auto;
@@ -349,18 +312,10 @@ form input:focus {
 }
 
 /* Text Styles */
-.text-xl {
-  font-size: 2rem;
-}
 
 .text-lg {
   font-size: 1.8rem;
   margin-bottom: 1rem;
-}
-
-.text-md {
-  margin-bottom: 1.5rem;
-  font-size: 1.2rem;
 }
 
 .text-center {
@@ -382,9 +337,7 @@ form input:focus {
   border: none;
   cursor: pointer;
   margin-right: 0.5rem;
-  transition: opacity 0.2s ease-in;
   outline: none;
-  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
   border-radius: 10px;
   transition: 0.3s;
 }
@@ -392,10 +345,6 @@ form input:focus {
 .btn:hover {
   opacity: 0.9;
   transform: scale(1.2);
-}
-
-.btn-rounded {
-  border-radius: 5px;
 }
 
 .btn-xl {
@@ -453,18 +402,9 @@ form input:focus {
     text-transform: uppercase;
   }
 
-  .text-xl {
-    font-size: 1.5rem;
-  }
-
   .text-lg {
     font-size: 1.3rem;
     margin-bottom: 1rem;
-  }
-
-  .text-md {
-    margin-bottom: 1rem;
-    font-size: 1.2rem;
   }
 }
 
@@ -481,24 +421,6 @@ form input:focus {
 
   .showcase-content p {
     font-size: 1rem;
-  }
-
-  #tab-1-content .tab-1-content-inner {
-    grid-template-columns: 1fr;
-    text-align: center;
-  }
-
-  #tab-2-content .tab-2-content-top {
-    display: block;
-    text-align: center;
-  }
-
-  #tab-2-content .tab-2-content-bottom {
-    margin-top: 2rem;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 2rem;
-    text-align: center;
   }
 
   .btn-xl {
